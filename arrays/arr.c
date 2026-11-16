@@ -21,7 +21,10 @@ int main(){
 // return 0;
 
 //reverse the array
-//  
+int arr[5]={0,1,3,4,5};
+for(int i=4;i>=0;i--){
+    printf("%d ",arr[i]);
+} }
 
 //marks of students
 // int marks[5]= {20,18,50,45,10};
@@ -56,17 +59,17 @@ int main(){
 // printf("The product of the elements is: %d\n", product);
 
 //Minimum element in an array
-int arr[7]={19,4,2,18,9,5,12};
-int min=arr[0];
-for(int i=0;i<=6;i++){
-    if(min>arr[i]){
-        min=arr[i];
-    }
-}
-printf("The minimum element is: %d\n", min);
+// int arr[7]={19,4,2,18,9,5,12};
+// int min=arr[0];
+// for(int i=0;i<=6;i++){
+//     if(min>arr[i]){
+//         min=arr[i];
+//     }
+// }
+// printf("The minimum element is: %d\n", min);
 
 
-return 0;
-}
+// return 0;
+// }
 
 
