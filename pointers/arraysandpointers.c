@@ -8,7 +8,7 @@ void doubleAll(int arr[],int n){
 }
 int main(){
     int num[5]={1,2,3,4,5};
-    int n=sizeof(num)/sizeof(num[0]);
+    int n=sizeof(num)/sizeof(num[0]); //20/4 
     printf("in main: &nums[0]=%p\n",&num[0]);
     printf("in main sizeof= %d bytes \n",sizeof(num));
     doubleAll(num,n);
